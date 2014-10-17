@@ -18,6 +18,19 @@ You can install the latest version of mvcollapse via Stata:
 Done.
 
 
+## Use
+
+First you have to create the relevant uprating table
+
+	. uprateit_create_table datapath/uprate_de_cpi, country(de) account(cpi)
+
+Then you can use the uprateit command to uprate monetary variables in your data set
+
+	. uprateit gdp income using datapath/uprate_de_cpi, from(year) to(2010)
+
+That's it. Variables gdp and income will now be in values as of 2010.
+
+
 ## Data sources
 
 * Germany, Consumer Price Index
