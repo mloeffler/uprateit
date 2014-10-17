@@ -28,7 +28,8 @@ Done.
 
 ## Info
 
-Copyright (C) 2014, [Max Löffler](http://www.zew.de/en/staff/mlo)
+Copyright (C) 2014, [Max Löffler](http://www.zew.de/en/staff/mlo) and
+					[Sebastian Siegloch](http://siegloch.vwl.uni-mannheim.de/)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
