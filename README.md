@@ -36,13 +36,14 @@ That's it. Variables gdp and income will now be in values as of 2010.
 * Germany, Consumer Price Index
     * Provided by the [Federal Statistical Office](http://www.destatis.de/)
     * [Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948 - September 2014](https://www.destatis.de/DE/Publikationen/Thematisch/Preise/Verbraucherpreise/VerbraucherpreisindexLangeReihen.html)
-    * Based on West Germany only until 1991
+    * 1949-1962: Index der Einzelhandelspreise (based on West Germany only)
+    * 1963-1991: Preisindex für die Lebenshaltung, Alle privaten Haushalte (based on West Germany only)
+    * 1992-2013: Verbraucherpreisindex 
 
 
 ## Info
 
-Copyright (C) 2014, [Max Löffler](http://www.zew.de/en/staff/mlo) and
-					[Sebastian Siegloch](http://siegloch.vwl.uni-mannheim.de/)
+Copyright (C) 2014-2015, [Max Löffler](http://www.zew.de/en/staff/mlo) and [Sebastian Siegloch](http://siegloch.vwl.uni-mannheim.de/)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
