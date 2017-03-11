@@ -1,4 +1,4 @@
-*! version 0.2.1, 11feb2015, Max Loeffler <loeffler@zew.de>
+*! version 0.2.2, 11mar2017, Max Loeffler <loeffler@zew.de>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 
@@ -15,7 +15,7 @@
  * @param `account'  Which account/measure should be used for uprating
  */
 program define uprateit_create_table
-    version 13
+    version 13.0
     syntax anything(id=filename name=filename), Country(string) [Account(string)]
     tempname g up
     
@@ -95,7 +95,9 @@ program define uprateit_create_table
                         2012,    2.0  \ ///
                         2013,    1.5  \ ///
                         2014,    0.9  \ ///
-                        2015,    0.9)
+                        2015,    0.3  \ ///
+                        2016,    0.5  \ ///
+                        2017,    0.5 /* Assumed equal to previous year */ )
         }
     }
     else if ("`country'" == "us") {
