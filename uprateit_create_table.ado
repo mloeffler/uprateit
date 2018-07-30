@@ -1,4 +1,4 @@
-*! version 0.2.2, 11mar2017, Max Loeffler <loeffler@zew.de>
+*! version 0.2.3, 30jul2018, Max Loeffler <loeffler@zew.de>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 
@@ -97,7 +97,8 @@ program define uprateit_create_table
                         2014,    0.9  \ ///
                         2015,    0.3  \ ///
                         2016,    0.5  \ ///
-                        2017,    0.5 /* Assumed equal to previous year */ )
+                        2017,    1.8  \ ///
+                        2018,    1.8 /* Assumed equal to previous year */ )
         }
     }
     else if ("`country'" == "us") {
