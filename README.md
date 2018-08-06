@@ -35,11 +35,11 @@ That's it. Variables gdp and income will now be in values as of 2010.
 
 * Germany, Consumer Price Index
     * Provided by the [Federal Statistical Office](http://www.destatis.de/)
-    * [Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948 - Januar 2017](https://www.destatis.de/DE/Publikationen/Thematisch/Preise/Verbraucherpreise/VerbraucherpreisindexLangeReihen.html)
+    * [Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948 - Juni 2018](https://www.destatis.de/DE/Publikationen/Thematisch/Preise/Verbraucherpreise/VerbraucherpreisindexLangeReihen.html)
     * 1949-1962: Index der Einzelhandelspreise (based on West Germany only)
     * 1963-1991: Preisindex für die Lebenshaltung, Alle privaten Haushalte (based on West Germany only)
-    * 1992-2016: Verbraucherpreisindex 
-    * 2017: assumed to equal CPI inflation rate of previous year
+    * 1992-2017: Verbraucherpreisindex
+    * 2018: assumed to equal CPI inflation rate of previous year
 
 
 ## Info
