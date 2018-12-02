@@ -1,4 +1,4 @@
-*! version 0.2.3, 30jul2018, Max Loeffler <loeffler@zew.de>
+*! version 0.2.4, 02dec2018, Max Loeffler <max.loeffler@uni-koeln.de>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 
@@ -18,15 +18,15 @@ program define uprateit_create_table
     version 13.0
     syntax anything(id=filename name=filename), Country(string) [Account(string)]
     tempname g up
+
+    // No account specified? Use cpi!
+    if ("`account'" == "") {
+        di as text "No account specified. Use 'cpi' by default."
+        local account = "cpi"
+    }
     
     // Uprate Germany
     if ("`country'" == "de") {
-        // No account specified? Use cpi!
-        if ("`account'" == "") {
-            di as text "No account specified. Use 'cpi' by default."
-            local account = "cpi"
-        }
-        
         // Consumer price index
         if ("`account'" == "cpi") {
             mat `g' = ( 1949,   -6.6  \ ///
@@ -99,6 +99,39 @@ program define uprateit_create_table
                         2016,    0.5  \ ///
                         2017,    1.8  \ ///
                         2018,    1.8 /* Assumed equal to previous year */ )
+        }
+    }
+    // Uprate Berlin, Germany
+    else if ("`country'" == "de-be") {
+        // Consumer price index
+        if ("`account'" == "cpi") {
+            mat `g' = ( 1992,    4.8  \ ///
+                        1993,    4.8  \ ///
+                        1994,    2.5  \ ///
+                        1995,    1.8  \ ///
+                        1996,    1.1  \ ///
+                        1997,    1.4  \ ///
+                        1998,    0.3  \ ///
+                        1999,    0.1  \ ///
+                        2000,    1.3  \ ///
+                        2001,    1.3  \ ///
+                        2002,    1.1  \ ///
+                        2003,    0.3  \ ///
+                        2004,    2.1  \ ///
+                        2005,    1.3  \ ///
+                        2006,    1.6  \ ///
+                        2007,    1.8  \ ///
+                        2008,    2.4  \ ///
+                        2009,    0.2  \ ///
+                        2010,    1.3  \ ///
+                        2011,    2.3  \ ///
+                        2012,    2.2  \ ///
+                        2013,    2.2  \ ///
+                        2014,    0.8  \ ///
+                        2015,   -0.1  \ ///
+                        2016,    0.5  \ ///
+                        2017,    1.7  \ ///
+                        2018,    1.7 /* Assumed equal to previous year */ )
         }
     }
     else if ("`country'" == "us") {

@@ -40,11 +40,16 @@ That's it. Variables gdp and income will now be in values as of 2010.
     * 1963-1991: Preisindex für die Lebenshaltung, Alle privaten Haushalte (based on West Germany only)
     * 1992-2017: Verbraucherpreisindex
     * 2018: assumed to equal CPI inflation rate of previous year
+* Berlin, Germany, Consumer Price Index
+    * Provided by the [Statistical Office Berlin](http://www.statistik-berlin-brandenburg.de/)
+    * [Verbraucherpreisindex in Berlin 1991 bis 2017 nach Abteilungen](https://www.statistik-berlin-brandenburg.de/statistiken/langereihen/dateien/Verbraucherpreise.xlsx)
+    * 1992-2017: Verbraucherpreisindex
+    * 2018: assumed to equal CPI inflation rate of previous year
 
 
 ## Info
 
-Copyright (C) 2014-2017, [Max Löffler](http://www.zew.de/en/staff/mlo) and [Sebastian Siegloch](http://siegloch.vwl.uni-mannheim.de/)
+Copyright (C) 2014-2018, [Max Löffler](http://www.zew.de/en/staff/mlo) and [Sebastian Siegloch](http://siegloch.vwl.uni-mannheim.de/)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
