@@ -1,4 +1,4 @@
-*! version 0.2.4, 02dec2018, Max Loeffler <max.loeffler@uni-koeln.de>
+*! version 0.2.5, 05feb2019, Max Loeffler <max.loeffler@uni-koeln.de>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 
@@ -7,10 +7,10 @@
  * accounting methods. By now it includes:
  *
  * de / cpi     Germany, Consumer Price Index (Federal Statistical Office)
- *              Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948 -
- *                  September 2014 (only West Germany until 1991)
+ *                  - West Germany: 1949-1991
+ *                  - Germany: 1992-2018/19
  * de-be / cpi  Berlin, Germany, Consumer Price Index (Statistical Office)
- *              Verbraucherpreisindex in Berlin 1991 bis 2017 nach Abteilungen
+ *                  - 1992-2018/19
  *              
  * 
  * 2014-10-16   Initial version (v0.1)
@@ -19,9 +19,10 @@
  * 2017-03-11   Extend time series for Germany (CPI) until 2016 (v0.2.2)
  * 2018-07-30   Extend time series for Germany (CPI) until 2018 (v0.2.3)
  * 2018-12-02   Add time series for Berlin, Germany (CPI) 1992-2018 (v0.2.4)
+ * 2019-02-05   Extend time series for Germany (CPI) until 2019 (v0.2.5)
  * 
  *
- * Copyright (C) 2014-2018 Max Löffler <loeffler@zew.de>
+ * Copyright (C) 2014-2019 Max Löffler <max.loeffler@uni-koeln.de>
  *                         Sebastian Siegloch <siegloch@uni-mannheim.de>
  * 
  * This program is free software; you can redistribute it and/or modify
