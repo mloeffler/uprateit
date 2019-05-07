@@ -1,4 +1,4 @@
-*! version 0.2.5, 05feb2019, Max Loeffler <max.loeffler@uni-koeln.de>
+*! version 0.2.6, 07may2019, Max Loeffler <max.loeffler@uni-koeln.de>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 
@@ -20,6 +20,7 @@
  * 2018-07-30   Extend time series for Germany (CPI) until 2018 (v0.2.3)
  * 2018-12-02   Add time series for Berlin, Germany (CPI) 1992-2018 (v0.2.4)
  * 2019-02-05   Extend time series for Germany (CPI) until 2019 (v0.2.5)
+ * 2019-05-07   Use built-in ds command instead of isvar ado (v0.2.6)
  * 
  *
  * Copyright (C) 2014-2019 Max Löffler <max.loeffler@uni-koeln.de>
@@ -62,7 +63,7 @@ program define uprateit
         gen year = `from'
     }
     else {
-        cap isvar `from'
+        cap ds `from', has(type numeric)
         if (_rc != 0 | "`r(varlist)'" == "" | wordcount("`from'") > 1) {
             di in r "Option from has to be (a) numeric (variable)."
             exit 198
