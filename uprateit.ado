@@ -1,4 +1,4 @@
-*! version 0.2.6, 07may2019, Max Loeffler <max.loeffler@uni-koeln.de>
+*! version 0.2.7, 03apr2020, Max Loeffler <m.loeffler@maastrichtuniversity.nl>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 

@@ -35,22 +35,22 @@ That's it. Variables gdp and income will now be in values as of 2010.
 
 * Germany, Consumer Price Index
     * Provided by the [Federal Statistical Office](http://www.destatis.de/)
-    * [Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948](https://www.destatis.de/DE/Publikationen/Thematisch/Preise/Verbraucherpreise/VerbraucherpreisindexLangeReihen.html)
+    * [Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948](https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/verbraucherpreisindex-lange-reihen-xlsx-5611103.xlsx)
     * 1949-1962: Index der Einzelhandelspreise (based on West Germany only)
     * 1963-1991: Preisindex für die Lebenshaltung, Alle privaten Haushalte (based on West Germany only)
-    * 1992-2018: Verbraucherpreisindex
-    * 2019: assumed to equal CPI inflation rate of previous year
+    * 1992-2019: Verbraucherpreisindex
+    * 2020: assumed to equal CPI inflation rate of previous year
 * Berlin, Germany, Consumer Price Index
     * Provided by the [Federal Statistical Office](http://www.destatis.de/) and the [Statistical Office Berlin](http://www.statistik-berlin-brandenburg.de/)
     * [GENESIS-Online Datenbank](https://www-genesis.destatis.de/genesis/online), Tabellencode 61111-0010, [Verbraucherpreisindex in Berlin 1991 bis 2017 nach Abteilungen](https://www.statistik-berlin-brandenburg.de/statistiken/langereihen/dateien/Verbraucherpreise.xlsx)
-    * 1992-1994: Verbraucherpreisindex (Statistical Office Berlin)
-    * 1995-2018: Verbraucherpreisindex (Federal Statistical Office)
-    * 2019: assumed to equal CPI inflation rate of previous year
+    * 1992-1995: Verbraucherpreisindex (Statistical Office Berlin)
+    * 1996-2019: Verbraucherpreisindex (Federal Statistical Office)
+    * 2020: assumed to equal CPI inflation rate of previous year
 
 
 ## Info
 
-Copyright (C) 2014-2019, [Max Löffler](http://www.zew.de/en/staff/mlo) and [Sebastian Siegloch](http://siegloch.vwl.uni-mannheim.de/)
+Copyright (C) 2014-2020, [Max Löffler](http://www.maastrichtuniversity.nl/p70067847) and [Sebastian Siegloch](https://www.vwl.uni-mannheim.de/siegloch/)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
