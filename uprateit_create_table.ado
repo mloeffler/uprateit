@@ -1,4 +1,4 @@
-*! version 0.2.7, 03apr2020, Max Loeffler <m.loeffler@maastrichtuniversity.nl>
+*! version 0.2.8, 13aug2020, Max Loeffler <m.loeffler@maastrichtuniversity.nl>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 
@@ -111,7 +111,7 @@ program define uprateit_create_table
                         1993,    4.9  \ ///
                         1994,    2.4  \ ///
                         1995,    1.8  \ ///
-                        1996,    0.9  \ ///
+                        1996,    1.2  \ ///
                         1997,    1.4  \ ///
                         1998,    0.4  \ ///
                         1999,    0.0  \ ///
