@@ -21,6 +21,7 @@
  * 2018-12-02   Add time series for Berlin, Germany (CPI) 1992-2018 (v0.2.4)
  * 2019-02-05   Extend time series for Germany (CPI) until 2019 (v0.2.5)
  * 2019-05-07   Use built-in ds command instead of isvar ado (v0.2.6)
+ * 2020-04-03   Revise CPI time series for Germany&Berlin (v0.2.7)
  * 
  *
  * Copyright (C) 2014-2019 Max Löffler <max.loeffler@uni-koeln.de>
