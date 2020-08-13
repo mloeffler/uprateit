@@ -35,15 +35,15 @@ That's it. Variables gdp and income will now be in values as of 2010.
 
 * Germany, Consumer Price Index
     * Provided by the [Federal Statistical Office](http://www.destatis.de/)
-    * [Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948](https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/verbraucherpreisindex-lange-reihen-xlsx-5611103.xlsx)
+    * [Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948, version 13.08.2020](https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/verbraucherpreisindex-lange-reihen-xlsx-5611103.xlsx)
     * 1949-1962: Index der Einzelhandelspreise (based on West Germany only)
     * 1963-1991: Preisindex für die Lebenshaltung, Alle privaten Haushalte (based on West Germany only)
     * 1992-2019: Verbraucherpreisindex
     * 2020: assumed to equal CPI inflation rate of previous year
 * Berlin, Germany, Consumer Price Index
-    * Provided by the [Federal Statistical Office](http://www.destatis.de/) and the [Statistical Office Berlin](http://www.statistik-berlin-brandenburg.de/)
-    * [GENESIS-Online Datenbank](https://www-genesis.destatis.de/genesis/online), Tabellencode 61111-0010, [Verbraucherpreisindex in Berlin 1991 bis 2017 nach Abteilungen](https://www.statistik-berlin-brandenburg.de/statistiken/langereihen/dateien/Verbraucherpreise.xlsx)
-    * 1992-1995: Verbraucherpreisindex (Statistical Office Berlin)
+    * Provided by the [Federal Statistical Office](http://www.destatis.de/) and the [Statistical Office Berlin-Brandenburg](http://www.statistik-berlin-brandenburg.de/)
+    * [GENESIS-Online Datenbank](https://www-genesis.destatis.de/genesis/online), Tabellencode 61111-0010, downloaded 13.08.2020, [Verbraucherpreisindex in Berlin 1991 bis 2019 nach Abteilungen, version 23.07.2020](https://www.statistik-berlin-brandenburg.de/statistiken/langereihen/dateien/Verbraucherpreise.xlsx)
+    * 1992-1995: Verbraucherpreisindex (Statistical Office Berlin-Brandenburg)
     * 1996-2019: Verbraucherpreisindex (Federal Statistical Office)
     * 2020: assumed to equal CPI inflation rate of previous year
 
