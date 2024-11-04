@@ -1,4 +1,4 @@
-*! version 0.2.8, 13aug2020, Max Loeffler <m.loeffler@maastrichtuniversity.nl>
+*! version 0.2.9, 04nov2024, Max Loeffler <m.loeffler@maastrichtuniversity.nl>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 
@@ -8,7 +8,7 @@
  *
  * de / cpi     Germany, Consumer Price Index (Federal Statistical Office)
  *                  - West Germany: 1949-1991
- *                  - Germany: 1992-2018/19
+ *                  - Germany: 1992-2023
  * de-be / cpi  Berlin, Germany, Consumer Price Index (Statistical Office)
  *                  - 1992-2018/19
  *              
@@ -23,10 +23,11 @@
  * 2019-05-07   Use built-in ds command instead of isvar ado (v0.2.6)
  * 2020-04-03   Revise CPI time series for Germany&Berlin (v0.2.7)
  * 2020-08-13   Revise CPI time series for Berlin 1996 (v0.2.8)
+ * 2024-11-04   Extend time series for Germany (CPI) until 2023 (v0.2.8)
  * 
  *
- * Copyright (C) 2014-2019 Max Löffler <max.loeffler@uni-koeln.de>
- *                         Sebastian Siegloch <siegloch@uni-mannheim.de>
+ * Copyright (C) 2014-2024 Max LÃ¶ffler <m.loeffler@maastrichtuniversity.nl>
+ *                         Sebastian Siegloch <siegloch@wiso.uni-koeln.de>
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

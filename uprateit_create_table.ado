@@ -1,4 +1,4 @@
-*! version 0.2.8, 13aug2020, Max Loeffler <m.loeffler@maastrichtuniversity.nl>
+*! version 0.2.9, 04nov2024, Max Loeffler <m.loeffler@maastrichtuniversity.nl>
 /**
  * UPRATEIT - UPRATE MONETARY VARIABLES ACCORDING TO INFLATION INDICIES
  * 
@@ -100,7 +100,11 @@ program define uprateit_create_table
                         2017,    1.5  \ ///
                         2018,    1.8  \ ///
                         2019,    1.4  \ ///
-                        2020,    1.4 /* Assumed equal to previous year */ )
+                        2020,    0.5  \ ///
+                        2021,    3.1  \ ///
+                        2022,    6.9  \ ///
+                        2023,    5.9  \ ///
+                        2024,    5.9 /* Assumed equal to previous year */ )
         }
     }
     // Uprate Berlin, Germany
